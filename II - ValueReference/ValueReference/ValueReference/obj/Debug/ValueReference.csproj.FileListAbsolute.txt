@@ -1,0 +1,7 @@
+C:\Users\Ronan\source\repos\c-sharp-fundimentals\II - ValueReference\ValueReference\ValueReference\bin\Debug\ValueReference.exe.config
+C:\Users\Ronan\source\repos\c-sharp-fundimentals\II - ValueReference\ValueReference\ValueReference\bin\Debug\ValueReference.exe
+C:\Users\Ronan\source\repos\c-sharp-fundimentals\II - ValueReference\ValueReference\ValueReference\bin\Debug\ValueReference.pdb
+C:\Users\Ronan\source\repos\c-sharp-fundimentals\II - ValueReference\ValueReference\ValueReference\obj\Debug\ValueReference.csprojResolveAssemblyReference.cache
+C:\Users\Ronan\source\repos\c-sharp-fundimentals\II - ValueReference\ValueReference\ValueReference\obj\Debug\ValueReference.csproj.CoreCompileInputs.cache
+C:\Users\Ronan\source\repos\c-sharp-fundimentals\II - ValueReference\ValueReference\ValueReference\obj\Debug\ValueReference.exe
+C:\Users\Ronan\source\repos\c-sharp-fundimentals\II - ValueReference\ValueReference\ValueReference\obj\Debug\ValueReference.pdb

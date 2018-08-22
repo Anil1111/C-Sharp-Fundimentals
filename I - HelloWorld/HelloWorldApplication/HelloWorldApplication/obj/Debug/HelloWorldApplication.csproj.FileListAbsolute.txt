@@ -1,0 +1,7 @@
+C:\Users\Ronan\source\repos\c-sharp-fundimentals\I - HelloWorld\HelloWorldApplication\HelloWorldApplication\bin\Debug\HelloWorldApplication.exe.config
+C:\Users\Ronan\source\repos\c-sharp-fundimentals\I - HelloWorld\HelloWorldApplication\HelloWorldApplication\bin\Debug\HelloWorldApplication.exe
+C:\Users\Ronan\source\repos\c-sharp-fundimentals\I - HelloWorld\HelloWorldApplication\HelloWorldApplication\bin\Debug\HelloWorldApplication.pdb
+C:\Users\Ronan\source\repos\c-sharp-fundimentals\I - HelloWorld\HelloWorldApplication\HelloWorldApplication\obj\Debug\HelloWorldApplication.csprojResolveAssemblyReference.cache
+C:\Users\Ronan\source\repos\c-sharp-fundimentals\I - HelloWorld\HelloWorldApplication\HelloWorldApplication\obj\Debug\HelloWorldApplication.csproj.CoreCompileInputs.cache
+C:\Users\Ronan\source\repos\c-sharp-fundimentals\I - HelloWorld\HelloWorldApplication\HelloWorldApplication\obj\Debug\HelloWorldApplication.exe
+C:\Users\Ronan\source\repos\c-sharp-fundimentals\I - HelloWorld\HelloWorldApplication\HelloWorldApplication\obj\Debug\HelloWorldApplication.pdb
