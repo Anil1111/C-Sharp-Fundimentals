@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdvancedGenericsInterfaces
 {
-    interface IRepository<TModel> where TModel : Model
+    public interface IRepository<TModel> where TModel : Model
     {
         void Add(TModel model);
         TModel GetById(int id);

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdvancedGenericsInterfaces
 {
-    interface IModel
+    public interface IModel
     {
         int Id { get; set; }
     }
