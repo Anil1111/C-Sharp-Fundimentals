@@ -163,21 +163,21 @@ namespace Keywords
         // transfer of control can occur as a result of normal execution, of execution of a break, continue, goto, or return statement,
         // or of propagation of an exception out of the try statement.  Within a handled exception, the associated finally block is 
         // guaranteed to be run.However, if the exception is unhandled, execution of the finally block is dependent on how the exception 
-        // unwind operation is triggered.That, in turn, is dependent on how your computer is set up.  Usually, when an unhandled exception
-        // ends an application, whether or not the finally block is run is not important. However, if you have statements in a finally block
-        // that must be run even in that situation, one solution is to add a catch block to the try-finally statement.Alternatively, you can
-        // catch the exception that might be thrown in the try block of a try-finally statement higher up the call stack. That is, you can 
-        // catch the exception in the method that calls the method that contains the try-finally statement, or in the method that calls that
-        // method, or in any method in the call stack.If the exception is not caught, execution of the finally block depends on whether the 
-        // operating system chooses to trigger an exception unwind operation.
+        // unwind operation is triggered.That, in turn, is dependent on how your computer is set up.  Usually, when an unhandled 
+        // exception ends an application, whether or not the finally block is run is not important. However, if you have statements in a 
+        // finally block that must be run even in that situation, one solution is to add a catch block to the try-finally statement.
+        // Alternatively, you can catch the exception that might be thrown in the try block of a try-finally statement higher up the 
+        // call stack. That is, you can catch the exception in the method that calls the method that contains the try-finally statement,
+        // or in the method that calls that method, or in any method in the call stack.If the exception is not caught, execution of the
+        // finally block depends on whether the operating system chooses to trigger an exception unwind operation.
 
         // { fixed } //
 
-        // The fixed statement prevents the garbage collector from relocating a movable variable.The fixed statement is only permitted in an 
-        // unsafe context. fixed can also be used to create fixed size buffers.  The fixed statement sets a pointer to a managed variable and 
-        // "pins" that variable during the execution of the statement.  Pointers to movable managed variables are useful only in a fixed context.
-        // Without a fixed context, garbage collection could relocate the variables unpredictably.  The C# compiler only lets you assign a 
-        // pointer to a managed variable in a fixed statement.
+        // The fixed statement prevents the garbage collector from relocating a movable variable.The fixed statement is only permitted in
+        // an unsafe context. fixed can also be used to create fixed size buffers.  The fixed statement sets a pointer to a managed 
+        // variable and "pins" that variable during the execution of the statement.  Pointers to movable managed variables are useful
+        // only in a fixed context.  Without a fixed context, garbage collection could relocate the variables unpredictably.  The C#
+        // compiler only lets you assign a pointer to a managed variable in a fixed statement.
 
         // { float } //
 
@@ -185,19 +185,20 @@ namespace Keywords
 
         // { for } //
 
-        // The for statement executes a statement or a block of statements while a specified boolean expression evaluates to true.  At any point
-        // within the for statement block, you can break out of the loop by using the break statement, or step to the next iteration in the loop
-        // by using the continue statement.You also can exit a for loop by the goto, return, or throw statements.
+        // The for statement executes a statement or a block of statements while a specified boolean expression evaluates to true.  
+        // At any point within the for statement block, you can break out of the loop by using the break statement, or step to the
+        // next iteration in the loop by using the continue statement.You also can exit a for loop by the goto, return, or throw 
+        // statements.
 
         // { foreach } //
 
-        // The foreach statement executes a statement or a block of statements for each element in an instance of the type that implements the 
-        // System.Collections.IEnumerable or System.Collections.Generic.IEnumerable<T> interface. The foreach statement is not limited to those
-        // types and can be applied to an instance of any type that satisfies the following conditions: has the public parameterless GetEnumerator
-        // method whose return type is either class, struct, or interface type, the return type of the GetEnumerator method has the public Current
-        // property and the public parameterless MoveNext method whose return type is Boolean.  At any point within the foreach statement block,
-        // you can break out of the loop by using the break statement, or step to the next iteration in the loop by using the continue statement.
-        // You also can exit a foreach loop by the goto, return, or throw statements.
+        // The foreach statement executes a statement or a block of statements for each element in an instance of the type that implements
+        // the System.Collections.IEnumerable or System.Collections.Generic.IEnumerable<T> interface. The foreach statement is not limited 
+        // to those types and can be applied to an instance of any type that satisfies the following conditions: has the public 
+        // parameterless GetEnumerator method whose return type is either class, struct, or interface type, the return type of the 
+        // GetEnumerator method has the public Current property and the public parameterless MoveNext method whose return type is Boolean.
+        // At any point within the foreach statement block, you can break out of the loop by using the break statement, or step to the next
+        // iteration in the loop by using the continue statement.  You also can exit a foreach loop by the goto, return, or throw statements.
 
         // { goto } //
 
