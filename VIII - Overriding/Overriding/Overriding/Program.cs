@@ -4,48 +4,48 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inheritance
+namespace Overriding
 {
-    public class Program
+    class Program
     {
         static void Main(string[] args)
         {
             Animal animal = new Animal("green");
             animal.Eat("food");
-            PrintColour(animal);
+            Pet(animal);
 
+            Console.WriteLine("\n");
             Dog dog = new Dog("blue", "bichon");
             dog.Eat("bones");
             dog.Bark();
-            PrintColour(dog);
+            Pet(dog);
 
+            Console.WriteLine("\n");
             Snake snake = new Snake("yellow", false);
+            snake.Eat("rats");
             snake.Bite();
-            PrintColour(snake);
+            Pet(snake);
 
-            HuntingDog huntingDog = new HuntingDog("pink", "staff", 120);
-            huntingDog.Hunt();
-            PrintColour(snake);
+            Console.WriteLine("\nArray of animals eating: ");
 
             Animal[] animals = new Animal[]
             {
                 animal,
                 dog,
-                snake,
-                huntingDog
+                snake
             };
 
-            Console.WriteLine("Iterating through the animals array\n");
-
             foreach (var a in animals)
-                a.Eat("food for animals");
+                a.Eat("food for everybody");
 
-            Console.ReadLine();
+            Console.WriteLine("\nPetting");
+            foreach (var a in animals)
+                Pet(a);
         }
 
-        public static void PrintColour(Animal animal)
+        public static void Pet(Animal animal)
         {
-            Console.WriteLine("The animal is: {0}\n", animal.Colour);
+            Console.WriteLine("You are petting a {0}", animal.GetType());
         }
     }
 }
