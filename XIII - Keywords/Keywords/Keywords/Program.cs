@@ -16,15 +16,16 @@ namespace Keywords
 
         // The first table in this topic lists keywords that are reserved identifiers in any part of a C# program. 
         // The second table in this topic lists the contextual keywords in C#. Contextual keywords have special meaning only 
-        // in a limited program context and can be used as identifiers outside that context. Generally, as new keywords are added to the C# language, 
-        // they are added as contextual keywords in order to avoid breaking programs written in earlier versions.
+        // in a limited program context and can be used as identifiers outside that context. Generally, as new keywords are 
+        // added to the C# language, they are added as contextual keywords in order to avoid breaking programs written in 
+        // earlier versions.
 
         // { abstaract } //
 
-        // The abstract modifier indicates that the thing being modified has a missing or incomplete implementation.The abstract modifier can be 
-        // used with classes, methods, properties, indexers, and events.Use the abstract modifier in a class declaration to indicate that a class is 
-        // intended only to be a base class of other classes.Members marked as abstract, or included in an abstract class, must be implemented by classes 
-        // that derive from the abstract class.
+        // The abstract modifier indicates that the thing being modified has a missing or incomplete implementation.The abstract
+        // modifier can be used with classes, methods, properties, indexers, and events.Use the abstract modifier in a class 
+        // declaration to indicate that a class is intended only to be a base class of other classes.Members marked as abstract, 
+        // or included in an abstract class, must be implemented by classes that derive from the abstract class.
 
         // { as } //
 
@@ -37,8 +38,8 @@ namespace Keywords
         // Specify which base-class constructor should be called when creating instances of the derived class.    
         // A base class access is permitted only in a constructor, an instance method, or an instance property accessor.
         // It is an error to use the base keyword from within a static method.
-        // The base class that is accessed is the base class specified in the class declaration. For example, if you specify class ClassB : ClassA, 
-        // the members of ClassA are accessed from ClassB, regardless of the base class of ClassA.
+        // The base class that is accessed is the base class specified in the class declaration. For example, if you specify class
+        // ClassB : ClassA, the members of ClassA are accessed from ClassB, regardless of the base class of ClassA.
 
         // { bool } //
 
@@ -46,8 +47,8 @@ namespace Keywords
 
         // { break } //
 
-        // The break statement terminates the closest enclosing loop or switch statement in which it appears. Control is passed to the statement that follows 
-        // the terminated statement, if any.
+        // The break statement terminates the closest enclosing loop or switch statement in which it appears. Control is passed to the
+        // statement that follows the terminated statement, if any.
 
         // { byte } //
 
@@ -55,22 +56,26 @@ namespace Keywords
 
         // { case } //
 
-        // switch is a selection statement that chooses a single switch section to execute from a list of candidates based on a pattern match with the match expression.
+        // switch is a selection statement that chooses a single switch section to execute from a list of candidates based on a pattern 
+        // match with the match expression.
 
         // { catch } //
 
-        // The try-catch statement consists of a try block followed by one or more catch clauses, which specify handlers for different exceptions.
+        // The try-catch statement consists of a try block followed by one or more catch clauses, which specify handlers for different 
+        // exceptions.
 
         // { char } //
 
-        // The char keyword is used to declare an instance of the System.Char structure that the .NET Framework uses to represent a Unicode character. The value of a 
-        // Char object is a 16-bit numeric (ordinal) value.  Unicode characters are used to represent most of the written languages throughout the world.
+        // The char keyword is used to declare an instance of the System.Char structure that the .NET Framework uses to represent a 
+        // Unicode character. The value of a Char object is a 16-bit numeric (ordinal) value.  Unicode characters are used to represent
+        // most of the written languages throughout the world.
 
         // { checked } //
 
         // The checked keyword is used to explicitly enable overflow checking for integral-type arithmetic operations and conversions.
-        // By default, an expression that contains only constant values causes a compiler error if the expression produces a value that is outside the range of the 
-        // destination type.  If the expression contains one or more non-constant values, the compiler does not detect the overflow.
+        // By default, an expression that contains only constant values causes a compiler error if the expression produces a value that
+        // is outside the range of the destination type.  If the expression contains one or more non-constant values, the compiler does
+        // not detect the overflow.
 
         // { class } //
 
@@ -78,53 +83,59 @@ namespace Keywords
 
         // { const } //
 
-        // You use the const keyword to declare a constant field or a constant local.Constant fields and locals aren't variables and may not be modified. Constants can be 
-        // numbers, Boolean values, strings, or a null reference. Don’t create a constant to represent information that you expect to change at any time. For example, 
-        // don’t use a constant field to store the price of a service, a product version number, or the brand name of a company. These values can change over time, and because 
-        // compilers propagate constants, other code compiled with your libraries will have to be recompiled to see the changes.
+        // You use the const keyword to declare a constant field or a constant local.Constant fields and locals aren't variables and may
+        // not be modified. Constants can be numbers, Boolean values, strings, or a null reference. Don’t create a constant to represent 
+        // information that you expect to change at any time. For example, don’t use a constant field to store the price of a service,
+        // a product version number, or the brand name of a company. These values can change over time, and because compilers propagate
+        // constants, other code compiled with your libraries will have to be recompiled to see the changes.
 
         // { continue } //
 
-        // The continue statement passes control to the next iteration of the enclosing while, do, for, or foreach statement in which it appears.
+        // The continue statement passes control to the next iteration of the enclosing while, do, for, or foreach statement in which 
+        // it appears.
 
         // { decimal } //
 
-        // The decimal keyword indicates a 128-bit data type. Compared to other floating-point types, the decimal type has more precision and a smaller range, which makes 
-        // it appropriate for financial and monetary calculations.
+        // The decimal keyword indicates a 128-bit data type. Compared to other floating-point types, the decimal type has more 
+        //precision and a smaller range, which makes it appropriate for financial and monetary calculations.
 
         // { defuault } //
 
-        // The default keyword can be used in the switch statement or in a default value expression: The switch statement: Specifies the default label.
-        // Default value expressions: Produces the default value of a type.
+        // The default keyword can be used in the switch statement or in a default value expression: The switch statement: Specifies 
+        // the default label.  Default value expressions: Produces the default value of a type.
 
         // { delegate } //
 
-        // A delegate is a reference type that can be used to encapsulate a named or an anonymous method. Delegates are similar to function pointers in C++; however, 
-        // delegates are type-safe and secure. For applications of delegates, see Delegates and Generic Delegates.
+        // A delegate is a reference type that can be used to encapsulate a named or an anonymous method. Delegates are similar to 
+        // function pointers in C++; however, delegates are type-safe and secure. For applications of delegates, see Delegates and
+        // Generic Delegates.
 
         // { do } //
 
-        // The do statement executes a statement or a block of statements while a specified boolean expression evaluates to true. Because that expression is evaluated 
-        // after each execution of the loop, a do-while loop executes one or more times.This differs from the while loop, which executes zero or more times.  At any point 
-        // within the do statement block, you can break out of the loop by using the break statement.  You can step directly to the evaluation of the while expression by 
-        // using the continue statement.If the expression evaluates to true, execution continues at the first statement in the loop.Otherwise, execution continues at the 
-        // first statement after the loop.  You also can exit a do-while loop by the goto, return, or throw statements.
+        // The do statement executes a statement or a block of statements while a specified boolean expression evaluates to true. 
+        // Because that expression is evaluated after each execution of the loop, a do-while loop executes one or more times.This
+        // differs from the while loop, which executes zero or more times.  At any point within the do statement block, you can break
+        // out of the loop by using the break statement.  You can step directly to the evaluation of the while expression by using 
+        // the continue statement.If the expression evaluates to true, execution continues at the first statement in the loop.Otherwise,
+        // execution continues at the first statement after the loop.  You also can exit a do-while loop by the goto, return, or throw
+        // statements.
 
         // { double } //
 
-        // The double keyword signifies a simple type that stores 64-bit floating-point values. The following table shows the precision and approximate range for the 
-        // double type.
+        // The double keyword signifies a simple type that stores 64-bit floating-point values. The following table shows the precision 
+        // and approximate range for the double type.
 
         // { else } //
 
-        // An if statement identifies which statement to run based on the value of a Boolean expression.In the following example, the Boolean variable result is set to true 
-        // and then checked in the if statement.The output is The variable is set to true.
+        // An if statement identifies which statement to run based on the value of a Boolean expression.In the following example, the 
+        // Boolean variable result is set to true and then checked in the if statement.The output is The variable is set to true.
 
         // { enum } //
 
-        // The enum keyword is used to declare an enumeration, a distinct type that consists of a set of named constants called the enumerator list.  Usually it is best to 
-        // define an enum directly within a namespace so that all classes in the namespace can access it with equal convenience.  However, an enum can also be nested within a 
-        // class or struct.  By default, the first enumerator has the value 0, and the value of each successive enumerator is increased by 1. For example, in the following 
+        // The enum keyword is used to declare an enumeration, a distinct type that consists of a set of named constants called the 
+        // enumerator list.  Usually it is best to define an enum directly within a namespace so that all classes in the namespace can
+        // access it with equal convenience.  However, an enum can also be nested within a class or struct.  By default, the first 
+        // enumerator has the value 0, and the value of each successive enumerator is increased by 1. For example, in the following 
         // enumeration, Sat is 0, Sun is 1, Mon is 2, and so forth.
 
         // { event } //
@@ -137,8 +148,9 @@ namespace Keywords
 
         // { extern } //
 
-        // The extern modifier is used to declare a method that is implemented externally.A common use of the extern modifier is with the DllImport attribute when you are 
-        // using Interop services to call into unmanaged code.In this case, the method must also be declared as static.
+        // The extern modifier is used to declare a method that is implemented externally.A common use of the extern modifier is with 
+        // the DllImport attribute when you are using Interop services to call into unmanaged code.In this case, the method must also be 
+        // declared as static.
 
         // { false } //
 
@@ -146,23 +158,26 @@ namespace Keywords
 
         // { finally } //
 
-        // By using a finally block, you can clean up any resources that are allocated in a try block, and you can run code even if an exception occurs in the try block.
-        // Typically, the statements of a finally block run when control leaves a try statement.The transfer of control can occur as a result of normal execution, of 
-        // execution of a break, continue, goto, or return statement, or of propagation of an exception out of the try statement.  Within a handled exception, the 
-        // associated finally block is guaranteed to be run.However, if the exception is unhandled, execution of the finally block is dependent on how the exception unwind
-        // operation is triggered.That, in turn, is dependent on how your computer is set up.  Usually, when an unhandled exception ends an application, whether or not the 
-        // finally block is run is not important. However, if you have statements in a finally block that must be run even in that situation, one solution is to add a catch
-        // block to the try-finally statement.Alternatively, you can catch the exception that might be thrown in the try block of a try-finally statement higher up the call 
-        // stack. That is, you can catch the exception in the method that calls the method that contains the try-finally statement, or in the method that calls that method, 
-        // or in any method in the call stack.If the exception is not caught, execution of the finally block depends on whether the operating system chooses to trigger an 
-        // exception unwind operation.
+        // By using a finally block, you can clean up any resources that are allocated in a try block, and you can run code even if an 
+        // exception occurs in the try block.  Typically, the statements of a finally block run when control leaves a try statement.The 
+        // transfer of control can occur as a result of normal execution, of execution of a break, continue, goto, or return statement,
+        // or of propagation of an exception out of the try statement.  Within a handled exception, the associated finally block is 
+        // guaranteed to be run.However, if the exception is unhandled, execution of the finally block is dependent on how the exception 
+        // unwind operation is triggered.That, in turn, is dependent on how your computer is set up.  Usually, when an unhandled exception
+        // ends an application, whether or not the finally block is run is not important. However, if you have statements in a finally block
+        // that must be run even in that situation, one solution is to add a catch block to the try-finally statement.Alternatively, you can
+        // catch the exception that might be thrown in the try block of a try-finally statement higher up the call stack. That is, you can 
+        // catch the exception in the method that calls the method that contains the try-finally statement, or in the method that calls that
+        // method, or in any method in the call stack.If the exception is not caught, execution of the finally block depends on whether the 
+        // operating system chooses to trigger an exception unwind operation.
 
         // { fixed } //
 
-        // The fixed statement prevents the garbage collector from relocating a movable variable.The fixed statement is only permitted in an unsafe context. fixed can also
-        // be used to create fixed size buffers.  The fixed statement sets a pointer to a managed variable and "pins" that variable during the execution of the statement.
-        // Pointers to movable managed variables are useful only in a fixed context.Without a fixed context, garbage collection could relocate the variables unpredictably.
-        // The C# compiler only lets you assign a pointer to a managed variable in a fixed statement.
+        // The fixed statement prevents the garbage collector from relocating a movable variable.The fixed statement is only permitted in an 
+        // unsafe context. fixed can also be used to create fixed size buffers.  The fixed statement sets a pointer to a managed variable and 
+        // "pins" that variable during the execution of the statement.  Pointers to movable managed variables are useful only in a fixed context.
+        // Without a fixed context, garbage collection could relocate the variables unpredictably.  The C# compiler only lets you assign a 
+        // pointer to a managed variable in a fixed statement.
 
         // { float } //
 
@@ -170,23 +185,25 @@ namespace Keywords
 
         // { for } //
 
-        // The for statement executes a statement or a block of statements while a specified boolean expression evaluates to true.  At any point within the for statement block, 
-        // you can break out of the loop by using the break statement, or step to the next iteration in the loop by using the continue statement.You also can exit a for loop by 
-        // the goto, return, or throw statements.
+        // The for statement executes a statement or a block of statements while a specified boolean expression evaluates to true.  At any point
+        // within the for statement block, you can break out of the loop by using the break statement, or step to the next iteration in the loop
+        // by using the continue statement.You also can exit a for loop by the goto, return, or throw statements.
 
         // { foreach } //
 
-        //The foreach statement executes a statement or a block of statements for each element in an instance of the type that implements the System.Collections.IEnumerable or 
-        //System.Collections.Generic.IEnumerable<T> interface. The foreach statement is not limited to those types and can be applied to an instance of any type that satisfies 
-        //the following conditions: has the public parameterless GetEnumerator method whose return type is either class, struct, or interface type, the return type of the 
-        //GetEnumerator method has the public Current property and the public parameterless MoveNext method whose return type is Boolean.  At any point within the foreach 
-        //statement block, you can break out of the loop by using the break statement, or step to the next iteration in the loop by using the continue statement.You also can 
-        //exit a foreach loop by the goto, return, or throw statements.
+        // The foreach statement executes a statement or a block of statements for each element in an instance of the type that implements the 
+        // System.Collections.IEnumerable or System.Collections.Generic.IEnumerable<T> interface. The foreach statement is not limited to those
+        // types and can be applied to an instance of any type that satisfies the following conditions: has the public parameterless GetEnumerator
+        // method whose return type is either class, struct, or interface type, the return type of the GetEnumerator method has the public Current
+        // property and the public parameterless MoveNext method whose return type is Boolean.  At any point within the foreach statement block,
+        // you can break out of the loop by using the break statement, or step to the next iteration in the loop by using the continue statement.
+        // You also can exit a foreach loop by the goto, return, or throw statements.
 
         // { goto } //
 
-        //The goto statement transfers the program control directly to a labeled statement.  A common use of goto is to transfer control to a specific switch-case label or the
-        //default label in a switch statement.The goto statement is also useful to get out of deeply nested loops.
+        // The goto statement transfers the program control directly to a labeled statement.  A common use of goto is to transfer control to a 
+        // specific switch-case label or the default label in a switch statement.The goto statement is also useful to get out of deeply nested 
+        // loops.
 
         // { if } //
 
@@ -194,13 +211,13 @@ namespace Keywords
 
         // { implicit } //
 
-        // The implicit keyword is used to declare an implicit user-defined type conversion operator. Use it to enable implicit conversions between a user-defined type and 
-        // another type, if the conversion is guaranteed not to cause a loss of data.
+        // The implicit keyword is used to declare an implicit user-defined type conversion operator. Use it to enable implicit conversions between
+        // a user-defined type and another type, if the conversion is guaranteed not to cause a loss of data.
 
         // { in } //
 
-        // The in keyword is used in four contexts: generic type parameters in generic interfaces and delegates.  As a parameter modifier, which lets you pass an argument to a 
-        // method by reference rather than by value. foreach statements. join clauses in LINQ query expressions.
+        // The in keyword is used in four contexts: generic type parameters in generic interfaces and delegates.  As a parameter modifier, which 
+        // lets you pass an argument to a method by reference rather than by value. foreach statements. join clauses in LINQ query expressions.
 
         // { int } //
 
@@ -208,9 +225,9 @@ namespace Keywords
 
         // { interface } //
 
-        // An interface contains only the signatures of methods, properties, events or indexers.A class or struct that implements the interface must implement the members of the 
-        // interface that are specified in the interface definition. In the following example, class ImplementationClass must implement a method named SampleMethod that has no 
-        // parameters and returns void.
+        // An interface contains only the signatures of methods, properties, events or indexers.A class or struct that implements the interface 
+        // must implement the members of the interface that are specified in the interface definition. In the following example, class 
+        // ImplementationClass must implement a method named SampleMethod that has no parameters and returns void.
 
         // { internal } //
 
@@ -218,13 +235,14 @@ namespace Keywords
 
         // { is } //
 
-        // Checks if an object is compatible with a given type, or (starting with C# 7.0) tests an expression against a pattern.  The is keyword evaluates type compatibility at 
-        // runtime. It determines whether an object instance or the result of an expression can be converted to a specified type. 
+        // Checks if an object is compatible with a given type, or (starting with C# 7.0) tests an expression against a pattern.  The is keyword 
+        // evaluates type compatibility at runtime. It determines whether an object instance or the result of an expression can be converted to a 
+        // specified type. 
 
         // { lock } //
 
-        // The lock keyword marks a statement block as a critical section by obtaining the mutual-exclusion lock for a given object, executing a statement, and then releasing the 
-        // lock.
+        // The lock keyword marks a statement block as a critical section by obtaining the mutual-exclusion lock for a given object, executing a 
+        // statement, and then releasing the lock.
 
         // { long } //
 
@@ -232,25 +250,26 @@ namespace Keywords
 
         // { namespace } //
 
-        // The namespace keyword is used to declare a scope that contains a set of related objects. You can use a namespace to organize code elements and to create globally 
-        // unique types.
+        // The namespace keyword is used to declare a scope that contains a set of related objects. You can use a namespace to organize code 
+        // elements and to create globally unique types.
 
         // { new } //
 
-        // In C#, the new keyword can be used as an operator, a modifier, or a constraint.  new Operator Used to create objects and invoke constructors.  new Modifier Used to 
-        // hide an inherited member from a base class member.  new Constraint Used to restrict types that might be used as arguments for a type parameter in a generic 
-        // declaration.
+        // In C#, the new keyword can be used as an operator, a modifier, or a constraint.  new Operator Used to create objects and invoke 
+        //constructors.  new Modifier Used to hide an inherited member from a base class member.  new Constraint Used to restrict types that 
+        // might be used as arguments for a type parameter in a generic declaration.
 
         // { null } //
 
-        // The null keyword is a literal that represents a null reference, one that does not refer to any object. null is the default value of reference-type variables.
-        // Ordinary value types cannot be null. However, C# 2.0 introduced nullable value types.
+        // The null keyword is a literal that represents a null reference, one that does not refer to any object. null is the default value 
+        // of reference-type variables.  Ordinary value types cannot be null. However, C# 2.0 introduced nullable value types.
 
         // { object } //
 
-        // The object type is an alias for Object in the.NET Framework.In the unified type system of C#, all types, predefined and user-defined, reference types and value 
-        // types, inherit directly or indirectly from Object. You can assign values of any type to variables of type object. When a variable of a value type is converted to 
-        // object, it is said to be boxed. When a variable of type object is converted to a value type, it is said to be unboxed.
+        // The object type is an alias for Object in the.NET Framework.In the unified type system of C#, all types, predefined and user-defined,
+        // reference types and value types, inherit directly or indirectly from Object. You can assign values of any type to variables of type 
+        // object.  When a variable of a value type is converted to object, it is said to be boxed. When a variable of type object is converted
+        // to a value type, it is said to be unboxed.
 
         // { operator } //
 
@@ -258,19 +277,21 @@ namespace Keywords
 
         // { out } //
 
-        // You can use the out keyword in two contexts: As a parameter modifier, which lets you pass an argument to a method by reference rather than by value.  In generic 
-        // type parameter declarations for interfaces and delegates, which specifies that a type parameter is covariant.
+        // You can use the out keyword in two contexts: As a parameter modifier, which lets you pass an argument to a method by reference rather
+        // than by value.  In generic type parameter declarations for interfaces and delegates, which specifies that a type parameter is covariant.
 
         // { override } //
 
-        // The override modifier is required to extend or modify the abstract or virtual implementation of an inherited method, property, indexer, or event.
+        // The override modifier is required to extend or modify the abstract or virtual implementation of an inherited method, property, indexer,
+        // or event.
 
         // { params } //
 
-        // By using the params keyword, you can specify a method parameter that takes a variable number of arguments.  You can send a comma-separated list of arguments 
-        // of the type specified in the parameter declaration or an array of arguments of the specified type.You also can send no arguments.If you send no arguments, the 
-        // length of the params list is zero.  No additional parameters are permitted after the params keyword in a method declaration, and only one params keyword is 
-        // permitted in a method declaration.  The declared type of the params parameter must be a single-dimensional array, as the following example shows. Otherwise, a 
+        // By using the params keyword, you can specify a method parameter that takes a variable number of arguments.  You can send a comma-separated
+        // list of arguments of the type specified in the parameter declaration or an array of arguments of the specified type.You also can send no 
+        // arguments.If you send no arguments, the length of the params list is zero.  No additional parameters are permitted after the params keyword
+        // in a method declaration, and only one params keyword is permitted in a method declaration.  The declared type of the params parameter must 
+        // be a single-dimensional array, as the following example shows. Otherwise, a 
         // compiler error CS0225 occurs.
 
         // { private } //
